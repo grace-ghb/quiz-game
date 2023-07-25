@@ -1,16 +1,16 @@
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
-const finalSCore = document.querySelector('#finalSCore');
+//const finalSCore = document.querySelector('#finalSCore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
-// let finalScore
-// let	saveHighScore
+let finalScore;
+let saveHighScore;
 
 
 // Convert a Javascript Object Notation(JSON) string into an object
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-const MAX_HIGH_SCORES = 5;
+//const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
