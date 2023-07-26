@@ -274,16 +274,23 @@ All content written by the developer.
 	
 ### Code
 
-    - Codes were consulted regularly for better understanding and knowledge from the website:
+Codes were consulted regularly for better understanding and knowledge from the website:
 
-        -   [Stackoverflow](https://stackoverflow.com/)
-        -   [W3Schools](https://www.w3schools.com/
-        -   [Tutorials Point](https://www.tutorialspoint.com/)
-        -   [Modzilla Developer](https://developer.mozilla.org/)
-        -   [FreeCodeCamp](https://freecodecamp.org/)
-        -   [Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things)
-        -   [Chat Gpt](https://chat.openai.com/)
-        -   [YouYube from Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2190s)
+[Stackoverflow](https://stackoverflow.com/)
+
+[W3Schools](https://www.w3schools.com/)
+
+[Tutorials Point](https://www.tutorialspoint.com/)
+
+[Modzilla Developer](https://developer.mozilla.org/)
+
+[FreeCodeCamp](https://freecodecamp.org/)
+
+[Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things)
+
+[Chat Gpt](https://chat.openai.com/)
+
+[YouYube from Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2190s)
 
 ## Acknowledgements
 
