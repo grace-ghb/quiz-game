@@ -73,6 +73,7 @@ To play the game, the user must press the play game button to go to the game pag
   - This quiz game is educational.
   - Users can learn about the capital city for the country.
 
+
 [Back to Table of Contents](#table-of-contents)
 
 
@@ -256,7 +257,7 @@ There are four pages in this website which the users can browse through each usi
         6.  At Source select ‘Deploy from a branch’
         7.  At the Branch, select ‘main’, ‘/(root)’ and click save.
         8.  Go to GitHub Pages at the top.
-        9.  Your site is live at https://grace-ghb.github.io/quiz-game/
+        9.  Your site is live at [here](https://grace-ghb.github.io/quiz-game/)
         10. Click on ‘Visit site’ and it will bring you to the new tab of your website.
 
 ## Credits
@@ -276,18 +277,19 @@ All content written by the developer.
     - Codes were consulted regularly for better understanding and knowledge from the website:
 
         -   [Stackoverflow](https://stackoverflow.com/)
-        -   [W3Schools](https://www.w3schools.com/)        -  
+        -   [W3Schools](https://www.w3schools.com/
         -   [Tutorials Point](https://www.tutorialspoint.com/)
         -   [Modzilla Developer](https://developer.mozilla.org/)
         -   [FreeCodeCamp](https://freecodecamp.org/)
         -   [Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things)
-        -   [](https://chat.openai.com/)
-        -   [](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2190s)
+        -   [Chat Gpt](https://chat.openai.com/)
+        -   [YouYube from Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2190s)
 
 ## Acknowledgements
 
 -	My husband for his support and understanding.
 -	My mentor, Marcel, for his invaluable feedback and guidance especially on how to write a proper commit message.
 -	Code Institute and the Slack Community for their support, encouragement, and sharing of knowledge make it possible for me work on the project.
+
 
 [Back to Table of Contents](#table-of-contents)
