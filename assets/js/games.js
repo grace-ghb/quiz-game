@@ -10,9 +10,9 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-let startGame;
-let getNewQuestion;
-let incrementScore;
+// let startGame;
+// let getNewQuestion;
+// let incrementScore;
 
 let questions = [
     {
@@ -135,7 +135,7 @@ getNewQuestion = () => {
 
     // dataset from data-number="1"
     choices.forEach(choice => {
-        const number = choice.dataset.number;
+        const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -153,7 +153,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset.number;
+        const selectedAnswer = selectedChoice.dataset['number'];
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 

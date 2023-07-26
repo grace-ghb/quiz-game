@@ -1,39 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Game
 
-Welcome,
+Developer: Grace
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is a quiz game website where the user matches the capital city to the country.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![AmIResponsive](assets/images/AmIResponsive-pp2.png)
 
-## Codeanywhere Reminders
+To view the website, click [here](https://www.example.com).
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. User Experience (UX)
+   
+   - Discussion
+   - Stories
+   - Typography
+   - Wireframes
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+2.	Design
+o	Typography
+o	Wireframes
+o	Features
 
-`http_server`
+3.	Technologies Used
+o	Languages Used
+o	Frameworks, Libraries & Programs Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+4.	Testing
+  
+     - W3C Validator
+     - Accessibility
+     - Home Page
+     - Menu Page
+     - Gallery Page
+     - Contact Us Page
+     - Sign Up Page
+     - Tools Testing
+     - General Testing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+5.	Finish Products
+     - Home Page
+     - Menu Page
+     - Gallery Page
+     - Contact Us Page
+     - Sign Up Page
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+6.	Deployment
+     - GitHub Pages
 
-To log into the Heroku toolbelt CLI:
+7.	Credits
+     - Content
+     - Code
+     - Acknowledgments
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## User Experience (UX)
 
----
+### Initial Discussion
+To play the game, the user must press the play game button to go to the game page.  The user has ten quiz questions to match the capital city to the country.  The scores are shown at the right top of the screen and at the left top you can see the progression of the question answer.  When all the questions are answered, it will come to the end page where the users have to key in their name and press the save button.
 
-Happy coding!
+### User stories
+  - Users can view the site on different devices e.g., desktop, tablet, and smartphone.
+  - This quiz game is educational.
+  - Users can learn about the capital city for the country.
+
+[Back to Table of Contents](#table-of-contents)
+
+
+## Design
+
+### Typography
+
+[Google Fonts](https://fonts.google.com/) was used for the websites.
+    - The body used cursive fonts and 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      as a fallbavk font.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com/)
+
