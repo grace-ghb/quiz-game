@@ -13,21 +13,27 @@ To view the website, click [here](https://www.example.com).
 
 1. User Experience (UX)
    
-   - Discussion
-   - Stories
+   - Initial Discussion
+   - User Stories
    - Typography
    - Wireframes
 
 2.	Design
-o	Typography
-o	Wireframes
-o	Features
+    -   Typography
+    -   Wireframes
+    -   Features
+        -   Button Bar
+        -   Footer
+        -   Main Page Ethos Section
+        -   Game Page
+        -   Score Page
+        -   Highscores Page
 
-3.	Technologies Used
-o	Languages Used
-o	Frameworks, Libraries & Programs Used
+    -   Technologies Used
+    -   Languages Used
+    -   Frameworks, Libraries & Programs Used
 
-4.	Testing
+3.	Testing
   
      - W3C Validator
      - Accessibility
@@ -39,20 +45,22 @@ o	Frameworks, Libraries & Programs Used
      - Tools Testing
      - General Testing
 
-5.	Finish Products
+4.	Finish Products
      - Home Page
      - Menu Page
      - Gallery Page
      - Contact Us Page
      - Sign Up Page
 
-6.	Deployment
+5.	Deployment
      - GitHub Pages
 
-7.	Credits
+6.	Credits
      - Content
      - Code
      - Acknowledgments
+
+***
 
 
 ## User Experience (UX)
@@ -128,8 +136,10 @@ There are four pages in this website which the users can browse through each usi
 -	Users can press the button 'Clear High Scores' to clear scores or press the 'Go Home' button to go to the main page.
 
 ### Technologies Used
+
 -	Languages Used
 	- HTML , CSS and Javascript.
+
 ### Frameworks, Libraries and Programs Used
 
 -	Balsamiq is used to create wireframes.
