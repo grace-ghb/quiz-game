@@ -15,40 +15,46 @@
     <button id="openModalBtn" style="display: none;">Open Modal</button>
 
     <!-- Modal Block -->
-    <div class="moda">
-        <!-- A cross mark to close the modal -->
-        <span class="closeModal">&times;</span>
-
-        <!-- Modal header -->
-        <header class="modal-header">
-            <h1>Quiz Game</h1>
-        </header>
-        <hr />
+    <div id="modalPlay" class="modal-block">
 
         <!-- Modal content -->
-        <div class="modal-container">
-            <p>
-                In this quiz game, you can choose to play the <span>Easy</span> version where you have to match the
-                country with
-                their capital city. You can choose the answer from choice of A, B or C. To play this version, click the
-                'Easy'
-                button.
-            </p>
-            <p>
-                If you are ready to challenge yourself, you can choose the <span>DIFFICULT</span> version. In this
-                version you have
-                to key in your own word. To play this version, click the 'Difficult' button.
-            </p>
+        <div class="modal-content">
+            <!-- A cross mark to close the modal -->
+            <span class="closeModal">&times;</span>
+
+            <!-- Modal header -->
+            <header class="modal-header">
+                <h1>Quiz Game</h1>
+            </header>
+            <hr />
+
+            <!-- Modal content -->
+            <div class="modal-container">
+                <p>
+                    In this quiz game, you can choose to play the <span>Easy</span> version where you have to match the
+                    country with
+                    their capital city. You can choose the answer from choice of A, B or C. To play this version, click
+                    the
+                    'Easy'
+                    button.
+                </p>
+                <p>
+                    If you are ready to challenge yourself, you can choose the <span>DIFFICULT</span> version. In this
+                    version you have
+                    to key in your own word. To play this version, click the 'Difficult' button.
+                </p>
+
+            </div>
+
+            <!-- Modal footer -->
+            <footer class="modal-footer">
+                <button type="button" class="modal-btn easy"><a href="game.html">Easy</a></button>
+                <!-- <button type="button" class="modal-btn difficult"><a href="#">Difficult</a></button> -->
+            </footer>
 
         </div>
-
-        <!-- Modal footer -->
-        <footer class="modal-footer">
-            <button type="button" class="modal-btn easy"><a href="game.html">Easy</a></button>
-            <!-- <button type="button" class="modal-btn difficult"><a href="#">Difficult</a></button> -->
-        </footer>
-
     </div>
+
 </body>
 
 </html>
