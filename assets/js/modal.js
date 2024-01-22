@@ -5,7 +5,7 @@ const modal = document.getElementById('modalPlay');
 const openModalBtn = document.getElementById('openModalBtn');
 
 // Get the close button
-const closeModal = document.getElementById('closeModal');
+const closeModal = document.getElementsByClassName('closeModal')[0];
 
 // User click the button to open the modal
 openModalBtn.onclick = function () {
