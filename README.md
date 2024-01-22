@@ -28,6 +28,7 @@ To view the website, click [here](https://www.example.com).
         -   Game Page
         -   Score Page
         -   Highscores Page
+        -   Modal Page
 
     -   Technologies Used
     -   Languages Used
@@ -135,6 +136,13 @@ There are four pages in this website which the users can browse through each usi
 
 -	In this page, it shows the list of name who achived high scores.
 -	Users can press the button 'Clear High Scores' to clear scores or press the 'Go Home' button to go to the main page.
+
+#### Modal page
+
+-   When the user click the button 'Play Game' they will redirect to this page.
+-   In this page it explain about the quiz game.
+-   When user click at the 'cross' button or outside of the block, it will close the modal page and redirect user back to the main page.
+-   When the  user click on the 'Play' button, it will redirect the user to the game page.
 
 ### Technologies Used
 

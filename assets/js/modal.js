@@ -1,11 +1,13 @@
+// eslint-env es6
+
 // Get the modal
-const modal = document.getElementById('modalPlay');
+var modal = document.getElementById('modalPlay');
 
 // Get the button open modal
-const openModalBtn = document.getElementById('openModalBtn');
+var openModalBtn = document.getElementById('openModalBtn');
 
 // Get the close button
-const closeModal = document.getElementsByClassName('closeModal')[0];
+var closeModal = document.getElementsByClassName('closeModal')[0];
 
 // User click the button to open the modal
 openModalBtn.onclick = function () {
