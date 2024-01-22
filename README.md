@@ -209,6 +209,24 @@ There are four pages in this website which the users can browse through each usi
 -   No error or warning found for html and css codes.
 -   JSHint found one undefined variable, solved by adding the variable in line 4.
 
+#### Modal Page validation
+
+![Modal page validation](assets/images/modalHtmlValidError.png)
+
+-   There is an error where I have ignore as I would want to link the button to the game page.
+
+![Modal page validation](assets/images/modalCSSValid.png)
+
+-   No error found in CSS.
+
+![Modal page validation](assets/images/modalJSValidError.png)
+
+-   There are 3 error in modal.js, after checking at ChatGpt it's about the  ECMAScript version not supported.
+-   After changing the 'const' to 'var', the error are solved. 
+
+![Modal page validation](assets/images/modalJSValid.png)
+
+
 
 ### Lighthouse
 
@@ -250,6 +268,10 @@ There are four pages in this website which the users can browse through each usi
 ### Highscores Page Site
 
 ![Highscores page site](assets/images/scores-board.png)
+
+### Modal Page Site
+
+![Modal page site](assets/images/modal.png)
 
 
 ## Deployment
