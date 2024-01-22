@@ -234,6 +234,10 @@ There are four pages in this website which the users can browse through each usi
 
 -   Lighthouse test for accessible performance for Main page, Game page, End page and Highscores page, both for mobile and desktop performances.
 
+![Lighthouse test](assets/images/modalLighthouse.png)
+
+-   Lighthouse test for accessible pergoemance for Modal page.
+
  
 ### Tools Testing
 -	Chrome DevTools was used to test and modify HTML elements , CSS  and Javascript styles in the project.
