@@ -13,7 +13,7 @@ body {
     font-family: cursive, Arial, Helvetica, sans-serif;
     color: #fff;
     height: 100vh;
-    width: 70%;
+    width: 60%;
 }
 
 /* Game container - hero section */
@@ -28,7 +28,7 @@ body {
 #hud {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
 }
 
 .hud-prefix {
@@ -59,7 +59,7 @@ body {
 /* Game button section */
 
 #question-div {
-    height: 200px;
+    height: 150px;
     padding-top: 50px;
     padding-bottom: 20px;
     width: 100%;
@@ -77,7 +77,7 @@ body {
     background: rgb(155, 35, 155);
     font-size: 2rem;
     min-width: 8rem;
-    height: 6rem;
+    height: 5rem;
 }
 
 .choice-container:hover {
@@ -107,10 +107,26 @@ body {
     background: linear-gradient(32deg, rgba(230, 29, 29, 1), rgba(224, 11, 11, 1) 100%);
 }
 
+.back-home a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.back-home{
+    border: 5px solid rgb(11, 255, 36);;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
 /* Media query */
 
 @media screen and (max-width: 768px) {
-
+    body{
+        font-size: 70%;
+    }
     #progressBar {
         width: 6rem;
         height: 2rem;
@@ -142,8 +158,15 @@ body {
 
 @media screen and (max-width: 460px) {
 
+    #question-div {
+        height: 100px;
+        padding-top: 15px;
+        
+        width: 100%;
+    }
+    
     #question {
-        font-size: 1rem;
+        font-size: 1.0rem;
     }
 
     .choice-container {
@@ -151,7 +174,8 @@ body {
         margin-bottom: 0.8rem;
         width: 100%;
         border-radius: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        height: 50px;
     }
 
 
@@ -164,4 +188,14 @@ body {
         padding: 1rem;
         width: 100%;
     }
-}
+    .hud-prefix {
+        /* text-align: center; */
+        font-size: 1.0rem;
+        float: right;
+        
+    }
+    .hud-main-text {
+        font-size: 1.0rem;
+        margin-top: 0;
+    }
+} 
