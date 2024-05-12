@@ -33,7 +33,7 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -72,10 +72,10 @@ body {
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
-    width: 80%;
+    width: 90%;
     border-radius: 1rem;
     background: rgb(219, 207, 219);
-    font-size: 2rem;
+    font-size: 1.5rem;
     min-width: 8rem;
     height: 5rem;
 }
