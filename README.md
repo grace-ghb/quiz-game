@@ -139,7 +139,8 @@ There are four pages in this website which the users can browse through each usi
 
 #### Modal page
 
--   When the user click the button 'Play Game' they will redirect to this page.
+-   When the user click the button 'Easy Quiz' they will redirect to game 1 quiz.
+-   When the user click the button 'Difficult Quiz' they will redirect to game 2 quiz.
 -   In this page it explain about the quiz game.
 -   When user click at the 'cross' button or outside of the block, it will close the modal page and redirect user back to the main page.
 -   When the  user click on the 'Play' button, it will redirect the user to the game page.
@@ -260,10 +261,13 @@ There are four pages in this website which the users can browse through each usi
 
 ![Main page site](assets/images/main.png)
 
-### Game Page Site
+### Game 1 Page Site
 
 ![Game page site](assets/images/game-page.png)
 
+### Game 2 Page Site
+
+![Game page site](assets/images/game2-page.png)
 
 ### End Page Site
 
