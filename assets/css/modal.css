@@ -22,7 +22,7 @@ hr {
 .modal-content {
     background-color: #fff;
     margin: 10% auto;
-    padding: 20px;
+    padding: 15px;
     border: 2px solid rgba(155, 34, 155);
     border-radius: 1rem;
     width: 40%;
@@ -46,8 +46,10 @@ hr {
 .modal-container {
     height: 200px;
     text-align: left;
-    font-size: 1.5em;
     padding: 1em;
+}
+.modal-container > p{
+    font-size: 1.2rem;
 }
 
 /* Style for 'close' button */

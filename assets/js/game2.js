@@ -5,10 +5,10 @@ const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let correctAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availQuestions = [];
+let availableQuestions = [];
 
 let questions = [
     {
@@ -89,13 +89,13 @@ const MAX_QUESTIONS = 10;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availQuestions = [...questions];
+    availableQuestions = [...questions];
     getNewQuestions();
 };
 
 getNewQuestions=() => {
 
-    if(availQuestions.length===0 || questionCounter > MAX_QUESTIONS){
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign('end.html');
     }
@@ -105,8 +105,8 @@ getNewQuestions=() => {
     progressText.innerText = `Question ${questionCounter} / ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availQuestions.length);
-    currentQuestion = availQuestions[questionIndex];
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
@@ -114,16 +114,16 @@ getNewQuestions=() => {
         choice.innerText = currentQuestion['choice' + number];
     });
 
-    availQuestions.splice(questionIndex, 1);
+    availableQuestions.splice(questionIndex, 1);
 
-    acceptingAnswers = true;
+    correctAnswers = true;
 };
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if (!acceptingAnswers) return;
+        if (!correctAnswers) return;
        
-        acceptingAnswers = false;
+        acorrectAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
@@ -137,8 +137,8 @@ choices.forEach(choice => {
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
-            getNextQuestion();
-        }, 800);
+            getNewQuestions();
+        }, 500);
 
     });
 });
